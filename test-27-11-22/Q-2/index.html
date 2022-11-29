@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <table id="sampleTable" border="1">
+    <table id="sampleTable">
         <tr>
             <td>Row1 cell1</td>
             <td>Row1 cell2</td>
@@ -19,14 +19,16 @@
     </table><br>
     <input type="button" onclick="addRow()" value="addRow">
     <script>
+        var a = 3
+        var c = 2
         function addRow() {
-          var c = 2
+          
           var table = document.getElementById("sampleTable");
           var row = table.insertRow(c++);
           var cell1 = row.insertCell(0);
           var cell2 = row.insertCell(1);
-          cell1.innerHTML = "Row3 cell1";
-          cell2.innerHTML = "Row3 cell2";
+          cell1.innerHTML = `Row${a} cell1`;
+          cell2.innerHTML = `Row${a++} cell2`;
         }
         </script>
 </body>
