@@ -1,0 +1,40 @@
+
+.main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: gray;
+    margin-right: 10PX;
+}
+.dot2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: white;
+    margin-right: 10PX;
+}
+.dot3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: blue;
+    margin-right: 10PX;
+}
+.dot4 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: yellow;
+    margin-right: 10PX;
+}
+
+
