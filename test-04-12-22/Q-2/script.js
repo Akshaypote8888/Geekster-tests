@@ -1,4 +1,4 @@
-let i = 3
+let i = 0
 document.getElementById('dec_button').onclick = function decrease() {
     i -= 1;
     if(i<0){
@@ -8,7 +8,7 @@ document.getElementById('dec_button').onclick = function decrease() {
 }
 
 document.getElementById('res_button').onclick = function reset() {
-    i = 3;
+    i = 0;
     document.getElementById('count').style.color = 'green';
     document.getElementById('count').innerHTML = i;
 }
