@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+#country,#state{
+    width: 450px;
+    height: 35px;
+    border: 2px solid rgb(157, 157, 157);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+#search_button{
+    background-color: #4299EB;
+    border: 0;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    padding:5px 10px 5px 10px;
+}
+#cards{
+    width: 500px;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 0.5px rgb(175, 172, 172);
+    padding: 30px;
+}
