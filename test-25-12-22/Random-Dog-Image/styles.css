@@ -1,13 +1,41 @@
 img {
-    height: 200px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  body{
+    display: flex;
+    justify-content: center;
   }
   
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid rgb(149, 77, 5);
+    width: 82vw;
+  }
+  #heading{
+    color: aliceblue;
+    background-color: rgba(255, 133, 2, 0.673);
+    width: 80vw;
+    text-align: center;
+    padding: 15px;
   }
   
   button {
     margin: 20px;
+    color: rgba(255, 133, 2, 0.673);
+    background-color: white;
+    border: 2px solid rgba(255, 133, 2, 0.673);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  button:hover {
+    margin: 20px;
+    color: white;
+    background-color: rgba(255, 133, 2, 0.673);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
   }

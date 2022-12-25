@@ -1,6 +1,8 @@
-var btn = document.querySelector("button");
+var nextbutton = document.querySelector("button");
 var display = document.querySelector("#display");
-btn.addEventListener("click", function(){
+
+
+nextbutton.addEventListener("click", function(){
   var XHR = new XMLHttpRequest();
   XHR.onreadystatechange = function() {
     if (XHR.readyState == 4 && XHR.status == 200) {
